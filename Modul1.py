@@ -3,5 +3,5 @@ def HalloSagen(Name):
     return
 
 def AufWiedersehenSagen(Name):
-    print("Auf Wiedersehen ", Name)
+    print("Auf Wiedersehen " + str(Name))
     return
