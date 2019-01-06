@@ -1,10 +1,7 @@
-
-def Hallo(Count, *pars):
-    #Dies ist eine Funktion
-    #print("Anzahl der Parameter ist " + str(Count))
-    for par in pars:
-        print(par)
-    return Count
-
-#Hallo(2,"Hallo","Test")
-print(Hallo(2,"Hallo","Test"))
+v=int(input("Wert: "))
+if v==6:
+    print("v = " + str(v))
+elif v < 6:
+    print("v < 6")
+else:
+    print("v > 6")
