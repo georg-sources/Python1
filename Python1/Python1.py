@@ -1,9 +1,4 @@
 
-import datetime
-# Kommentar
-myvar=datetime.datetime.now().time()
-print(myvar)
-
-myvar2=True
-#Kommentar
-
+def Hallo():
+    #Dies ist eine Funktion
+    print("Dies ist eine Funktion")
