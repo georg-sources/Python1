@@ -5,7 +5,8 @@
     <ProjectGuid>626571d1-9fe2-44e1-aab8-15a3a22a5822</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>Python1.py</StartupFile>
-    <SearchPath>..\..\Python1</SearchPath>
+    <SearchPath>
+    </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Python1</Name>
