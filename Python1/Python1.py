@@ -1,5 +1,10 @@
-i=1
-# eine while schleife
-while i<10:
-    #print(i)
-    i+=1
+import sys
+
+try:
+    datei=open("test.txt")
+except IOError as e:
+    for par in e.args:
+        print(par)
+else:
+    print("Datei geoeffnet")
+    datei.close
