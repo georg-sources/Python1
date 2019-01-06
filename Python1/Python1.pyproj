@@ -5,8 +5,7 @@
     <ProjectGuid>626571d1-9fe2-44e1-aab8-15a3a22a5822</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>Python1.py</StartupFile>
-    <SearchPath>
-    </SearchPath>
+    <SearchPath>..\..\Python1</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Python1</Name>
@@ -21,6 +20,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Modul1.py" />
     <Compile Include="Python1.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

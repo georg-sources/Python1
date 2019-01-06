@@ -1,10 +1,4 @@
-import sys
+import Modul1
 
-try:
-    datei=open("test.txt")
-except IOError as e:
-    for par in e.args:
-        print(par)
-else:
-    print("Datei geoeffnet")
-    datei.close
+Modul1.HalloSagen("Georg")
+Modul1.AufWiedersehenSagen("Georg")
