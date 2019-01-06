@@ -1,4 +1,5 @@
-import Modul1
+from Modul1 import HalloSagen
+#import Modul1
 
-Modul1.HalloSagen("Georg")
-Modul1.AufWiedersehenSagen("Georg")
+HalloSagen("Georg")
+#Modul1.AufWiedersehenSagen("Georg")
