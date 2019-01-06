@@ -1,5 +1,4 @@
-from Modul1 import HalloSagen
-#import Modul1
+import Modul1
 
-HalloSagen("Georg")
-#Modul1.AufWiedersehenSagen("Georg")
+print(dir(Modul1.HalloSagen))
+print(Modul1.HalloSagen.__sizeof__())
